@@ -203,7 +203,7 @@ if count(g:ivim_bundle_groups, 'complete') " Completion
         Plug 'Shougo/neosnippet.vim' " Snippet engine
         Plug 'Shougo/neosnippet-snippets' " Snippets
         Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-        " Plug 'wellle/tmux-complete.vim' " Completion for tmux panes
+        Plug 'wellle/tmux-complete.vim' " Completion for tmux panes
     else
         " Auto completion framework
         let g:ivim_completion_engine='YouCompleteMe'
