@@ -55,7 +55,7 @@ install() {
     color_print "Cloning ivim..."
     cd $HOME
     rm -rf $HOME/.ivim
-    git clone https://github.com/kepbod/ivim.git $HOME/.ivim
+    git clone https://github.com/hellobbn/ivim.git $HOME/.ivim
     if [ $1 = 0 ]; then
         ln -s $HOME/.ivim/vimrc $HOME/.vimrc
     elif [ $1 = 1 ]; then
@@ -64,6 +64,7 @@ install() {
         mkdir -p $HOME/.config/nvim
         ln -s $HOME/.ivim/vimrc_mini $HOME/.config/nvim/init.vim
     fi
+    ln -s $HOME/.ivim/vimrc_local $HOME/.vimrc.local
     color_print "Installing vim-plug..."
     if [ $1 = 2 ]; then
         curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
