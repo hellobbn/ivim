@@ -142,25 +142,25 @@ Colorscheme: [Nord](https://github.com/arcticicestudio/nord-vim)
 * [ivim](https://github.com/kepbod/ivim/blob/master/vimrc)
 
 ```bash
-bash <(curl -L https://raw.githubusercontent.com/kepbod/ivim/master/setup.sh) -i
+bash <(curl -L https://raw.githubusercontent.com/hellobbn/ivim/master/setup.sh) -i
 # or
-bash <(wget --no-check-certificate https://raw.githubusercontent.com/kepbod/ivim/master/setup.sh -O -) -i
+bash <(wget --no-check-certificate https://raw.githubusercontent.com/hellobbn/ivim/master/setup.sh -O -) -i
 ```
 
-* [ivim_mini](https://github.com/kepbod/ivim/blob/master/vimrc_mini) for vim
+* [ivim_mini](https://github.com/hellobbn/ivim/blob/master/vimrc_mini) for vim
 
 ```bash
-bash <(curl -L https://raw.githubusercontent.com/kepbod/ivim/master/setup.sh) -m
+bash <(curl -L https://raw.githubusercontent.com/kepbod/hellobbn/master/setup.sh) -m
 # or
-bash <(wget --no-check-certificate https://raw.githubusercontent.com/kepbod/ivim/master/setup.sh -O -) -m
+bash <(wget --no-check-certificate https://raw.githubusercontent.com/hellobbn/ivim/master/setup.sh -O -) -m
 ```
 
-* [ivim_mini](https://github.com/kepbod/ivim/blob/master/vimrc_mini) for neovim
+* [ivim_mini](https://github.com/hellobbn/ivim/blob/master/vimrc_mini) for neovim
 
 ```bash
-bash <(curl -L https://raw.githubusercontent.com/kepbod/ivim/master/setup.sh) -u
+bash <(curl -L https://raw.githubusercontent.com/hellobbn/ivim/master/setup.sh) -u
 # or
-bash <(wget --no-check-certificate https://raw.githubusercontent.com/kepbod/ivim/master/setup.sh -O -) -u
+bash <(wget --no-check-certificate https://raw.githubusercontent.com/hellobbn/ivim/master/setup.sh -O -) -u
 ```
 
 ## Updating
