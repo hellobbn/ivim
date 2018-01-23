@@ -16,7 +16,7 @@
 "------------------------------------------------
 " => General
 "------------------------------------------------
-
+let g:deoplete#enable_at_startup = 1
 set nocompatible " Get out of vi compatible mode
 filetype plugin indent on " Enable filetype
 let mapleader=',' " Change the mapleader
@@ -153,7 +153,7 @@ Plug 'airblade/vim-gitgutter' " Git diff sign
 Plug 'tweekmonster/braceless.vim', { 'for': 'python' } " Setting for Python
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css'] } " Emmet
 Plug 'sheerun/vim-polyglot' " Language Support
-
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -520,3 +520,5 @@ vmap <Tab> %
 
 " -> Vim-polyglot
 let g:vim_markdown_conceal=0
+let g:python2_host_prog = '/usr/local/bin/python'
+let g:python3_host_prog = '/usr/local/bin/python3'
